@@ -21,20 +21,6 @@ const questions = [
             }
         }
     },
-    //email address
-    {
-        type: 'Input',
-        name: 'email',
-        message: 'What is your email address?',
-        validate: value => {
-            if (value) {
-                return true;
-            } else {
-                console.log('Please enter your email address')
-                return false;
-            }
-        }
-    },
     //project description
     {
         type: 'Input',
@@ -45,6 +31,20 @@ const questions = [
                 return true;
             } else {
                 console.log('Please describe your project')
+                return false;
+            }
+        }
+    },
+    //email address
+    {
+        type: 'Input',
+        name: 'email',
+        message: 'What is your email address?',
+        validate: value => {
+            if (value) {
+                return true;
+            } else {
+                console.log('Please enter your email address')
                 return false;
             }
         }

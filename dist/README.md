@@ -1,7 +1,7 @@
 # readme generator
 
   ## Description
-  a readme generator that can easily create a readme file using node js
+  with this readme generator it allows users to easily generate a readme file using the command line by answering the given questions.
 
   ## Table of Contents
   -[Installation](#installation)
@@ -12,10 +12,10 @@
   -[Questions](#questions)
 
   ## Installation
-  to use this project use git clone in the command line
+  to install package use git clone in the command line
 
   ## Usage
-  you can use this project in the command line by using index.js and answering the following questions
+  once you clone the project to your machine open the file in your code editor and open the correct file in your terminal. From there type in node index.js for the first prompt.
 
   ## License
   [![License Badge](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -25,10 +25,10 @@
     [![License Badge](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Contributing
-  you can fork the repo in github to contribute
+  you can clone the repo and make the desired changes on a seperate branch and push them up for approval
 
   ## Tests
-  you can test the project on your own in vs code or any other code editor
+  you can test this project with your own data in your code editor.
 
   ## Questions
   For questions or concerns, you can reach out to rcurcurato89@gmail.com.
